@@ -23,6 +23,8 @@ cd ns-allinone-3.30/ns-3.30
 
 ./waf --run "scratch/ns2-mobility-trace --traceFile=/home/leo/mobility.tcl --nodeNum=1813 --duration=100.0 --logFile=ns2-mob.log"
 
+./waf --run "scratch/vanet-routing-compare --protocol=2 --scenario=2" --vis
+
 cd netanim-3.108
 
 ./NetAnim 
